@@ -1,0 +1,1 @@
+# Algoritmo-de-Segmenta-o-e-Representa-o-geom-trica-de-Regi-es-
