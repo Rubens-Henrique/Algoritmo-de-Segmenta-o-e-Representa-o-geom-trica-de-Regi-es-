@@ -61,11 +61,11 @@ def convex_hull(points, include_collinear=False):
 
 img1 = cv2.imread("vaso.jpg")
 img2 = cv2.imread("arvore.png")
-img3 = cv2.imread("images.jpeg")
+img3 = cv2.imread("objeto3d.jpeg")
 
-if img1 is None: raise FileNotFoundError("Arquivo 'bolinha.jpg' não encontrado!")
-if img2 is None: raise FileNotFoundError("Arquivo 'vazo.png' não encontrado!")
-if img3 is None: raise FileNotFoundError("Arquivo 'vaso23.png' não encontrado!")
+if img1 is None: raise FileNotFoundError("Arquivo 'vaso.jpg' não encontrado!")
+if img2 is None: raise FileNotFoundError("Arquivo 'arvore.png' não encontrado!")
+if img3 is None: raise FileNotFoundError("Arquivo 'objeto3d.jpeg' não encontrado!")
 
 # 1️⃣ Conversão para tons de cinza
 gray1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
